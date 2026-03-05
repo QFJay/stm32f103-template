@@ -1,0 +1,2 @@
+# stm32f103-template
+基于HAL库的STM32F103工程模板，包含裸机模板和带FreeRTOS的模板
