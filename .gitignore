@@ -1,6 +1,7 @@
 # Keil 个人配置文件
 *.uvguix.*
 *.uvoptx
+*.scvd
 
 # IDE 备份文件
 *.bak
