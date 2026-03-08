@@ -2,23 +2,5 @@
 *.uvguix.*
 *.uvoptx
 
-# 编译中间文件
-Objects/
-Listings/
-*.o
-*.d
-*.crf
-*.axf
-*.htm
-*.lnp
-*.sct
-*.dep
-
-# 输出文件
-*.hex
-*.bin
-*.elf
-
 # IDE 备份文件
 *.bak
-*.dep
