@@ -1,5 +1,12 @@
 #include "dwt/bsp_dwt.h"
 
+#define DEMCR								*(uint32_t *)(0xE000EDFC)
+#define DWT_CTRL						*(uint32_t *)(0xE0001000)
+#define DWT_CYCCNT					*(uint32_t *)(0xE0001004)
+
+#define DEMCR_TRCENA				(1 << 24)
+#define DWT_CTRL_CYCCNTENA	(1 << 0)
+
 void DWT_Init(void)
 {
 	/* Enable DWT device */
